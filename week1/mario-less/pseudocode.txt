@@ -1,0 +1,19 @@
+First, you have to make a integer variable for height
+
+Then you have to get input from the user for how high the steps are. Use get_int
+
+You have to make sure that the number is positive, so you only accept the input if the input is a positive number. This is the do-while loop that was discussed in class.
+
+Just like in class, you have to use a for loop to increase iterations by 1 according the height the user put in.
+
+The user only inputs the height, so now we he have to figure out some algorithm to make the stairstep pattern.
+
+Each stairstep's width is equivalent to its height, so we have to figure out how to make the height equal the width each time the "typewriter goes to the new line"
+
+Start at zero. As long as i is less than the height, you print one block multiplied by the current i iteration, move to the next line and then add one to i. How do you multiply height times i?
+
+Make a variable called width. Make width equal to the current iteration of i. Then embed it in another for loop like the example from class.
+
+Why should you start with dots? Why don't you just start with spaces?
+
+Make a variable for spaces that is equal to height - width. Spaces have to be printed first, then Xs. So make 2 embedded 4 loops with one for spaces, then one for the Xs.

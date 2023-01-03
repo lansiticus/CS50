@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: The sorting times on the pre-sorted lists are significantly faster than the times on the random and reversed lists. This coresponds with the fact that bubble sort has a best-case senario of Omega(n) with pre-sorted values.
+
+sort2 uses: Merge Sort
+
+How do you know?: The sort times were similar for whatever order the numbers were in. So for example, there was little difference in times between random50000, sorted50000 and reversed50000. This means that this sort's Big O and Omega are both the same (n log n), which is the property of the merge sort. Also, this sorter was nearly always the fastest (except for the pre-sorted bubble sort), which you would expect from merge sort
+
+sort3 uses: Selection Sort
+
+How do you know?: For this sorter, the times were similar regardless of what order the numbers were in, which means the Omega value and the Big O values are the same/similar. However, this sorter took much longer than the merge sorter, so this must be the selection sort.
